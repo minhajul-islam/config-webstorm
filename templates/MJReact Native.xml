@@ -46,4 +46,29 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="mString" value="import LocalizedStrings from 'react-native-localization';&#10;&#10;let String = new LocalizedStrings({&#10;    en: {&#10;        apps_name: &quot;TopUp&quot;,&#10;        title: &quot;Main Activity-English&quot;,&#10;    },&#10;    bn: {&#10;        apps_name: &quot;মোবাইল টপআপ&quot;,&#10;        title: &quot;Main Activity-Bangla&quot;,&#10;    },&#10;});&#10;module.exports = String;" description="LocalizedStrings for both language" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="malert" value="Alert.alert('$title$', '$desc$');" description="Alert dialog" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mtext1" value=" $center_text$:{&#10;        fontSize: 16,&#10;        color: 'black',&#10;        textAlignVertical: 'center',&#10;    }" description="Text textAlignVertical center" toReformat="false" toShortenFQNames="true">
+    <variable name="center_text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mfl2" value="&lt;FlatList&#10;    data={this.state.$data$}&#10;    horizontal={true}&#10;    showsHorizontalScrollIndicator={false}&#10;    renderItem={({item}) =&gt; &lt;$Item$/&gt;}/&gt;" description="FlatList with  Horizontal Scroll  bar hide" toReformat="false" toShortenFQNames="true">
+    <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Item" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
