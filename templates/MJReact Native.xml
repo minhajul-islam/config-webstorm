@@ -27,4 +27,23 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="mlog" value="console.log('$MESSAGE$: ', $PARAM$);" description="console log" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mss" value="this.setState({&#10;  $KEY$: $VALUE$,&#10;});" description="setState" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cdm" value="componentDidMount() {&#10;  $END$&#10;}" description="componentDidMount" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
