@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="CustomPinView" type="Flow" />
+      <mapping ext="plist" type="PLAIN_TEXT" />
+      <mapping ext="bundle" type="PLAIN_TEXT" />
+      <mapping ext="keystore" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
