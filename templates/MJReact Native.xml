@@ -71,7 +71,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="mclick" value="&lt;TouchableHighlight&#10;        underlayColor={'transparent'}&#10;        onPress={() =&gt; { }}&gt;&#10;        &#10;&lt;/TouchableHighlight&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="mclick" value="&lt;TouchableHighlight&#10;        underlayColor={'transparent'}&#10;        onPress={() =&gt; { }}&gt;&#10;        &#10;&lt;/TouchableHighlight&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
