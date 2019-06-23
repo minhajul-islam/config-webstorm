@@ -5,7 +5,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="mstyle" value="const styles = StyleSheet.create({&#10;    container: {&#10;        alignItems: 'center',&#10;        justifyContent: 'center',&#10;        backgroundColor: 'white',&#10;        alignSelf: 'center',&#10;        margin: 16,&#10;    },&#10;    column_container: {&#10;        justifyContent: 'center',&#10;        backgroundColor: 'white',&#10;        alignSelf: 'center',&#10;    },&#10;    row_container: {&#10;        flexDirection:'row',&#10;        justifyContent: 'center',&#10;        backgroundColor: 'white',&#10;        alignSelf: 'center',&#10;    },&#10;    center_text:{&#10;        fontSize: 16,&#10;        color: 'black',&#10;        textAlignVertical: 'center',&#10;    }&#10;&#10;});" description="StyleSheet  with container" toReformat="false" toShortenFQNames="true">
+  <template name="mstyle" value="import {StyleSheet, Platform} from 'react-native';&#10;const styles = StyleSheet.create({&#10;    container: {&#10;        alignItems: 'center',&#10;        justifyContent: 'center',&#10;        backgroundColor: 'white',&#10;        alignSelf: 'center',&#10;        margin: 16,&#10;    },&#10;    column_container: {&#10;        justifyContent: 'center',&#10;        backgroundColor: 'white',&#10;        alignSelf: 'center',&#10;    },&#10;    row_container: {&#10;        flexDirection:'row',&#10;        justifyContent: 'center',&#10;        backgroundColor: 'white',&#10;        alignSelf: 'center',&#10;    },&#10;    center_text:{&#10;        fontSize: 16,&#10;        color: 'black',&#10;        textAlignVertical: 'center',&#10;    }&#10;&#10;});" description="StyleSheet  with container" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -67,6 +67,11 @@
   <template name="mfl2" value="&lt;FlatList&#10;    data={this.state.$data$}&#10;    horizontal={true}&#10;    showsHorizontalScrollIndicator={false}&#10;    renderItem={({item}) =&gt; &lt;$Item$/&gt;}/&gt;" description="FlatList with  Horizontal Scroll  bar hide" toReformat="false" toShortenFQNames="true">
     <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Item" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mclick" value="&lt;TouchableHighlight&#10;        underlayColor={'transparent'}&#10;        onPress={() =&gt; { }}&gt;&#10;        &#10;&lt;/TouchableHighlight&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
