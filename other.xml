@@ -1,0 +1,32 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="11.8.0" last-modified="1549816208000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/10.7.0/bin/node">
+      <version-cache version="10.7.0" last-modified="1532591633000" />
+    </local-interpreter>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="Darcula.SavedEditorTheme" value="_@user_Darcula" />
+    <property name="Default.SavedEditorTheme" value="_@user_Default" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="SettingsSearchHistory" value="setting repo&#10;live&#10;setting rep&#10;liv&#10;templ" />
+    <property name="SplitFileEditor.Proportion" value="0.6407465" />
+    <property name="WebStorm.enableDefaultTooltipFixes" value="true" />
+    <property name="WebStorm.enableSmartQuotes" value="true" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="evlsprt.183" value="1697cfdc272" />
+    <property name="evlsprt2.183" value="1695ea3edce" />
+    <property name="evlsprt3.183" value="10" />
+    <property name="file.gist.reindex.count" value="99934" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="js.rename.search.in.comments" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.2.1" />
+  </component>
+</application>
