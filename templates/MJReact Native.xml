@@ -76,7 +76,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="mfn_arrow" value="import React from 'react';&#10;import {TouchableOpacity, Text} from 'react-native';&#10;&#10;export default ({text, onPress, disabled}) =&gt; {&#10;    return (&#10;        &lt;TouchableOpacity&#10;            disabled={disabled}&#10;            onPress={onPress}&#10;            style={styles.container}&gt;&#10;            &lt;View style={styles.container}&gt;&#10;               //&#10;            &lt;/View&gt;&#10;        &lt;/TouchableOpacity&gt;&#10;    )&#10;}&#10;&#10;const styles = StyleSheet.create({&#10;    container: {&#10;        alignItems: 'center',&#10;        justifyContent: 'center',&#10;        backgroundColor: 'white',&#10;        alignSelf: 'center',&#10;        margin: 16,&#10;    }&#10;});" description="arrow function" toReformat="false" toShortenFQNames="true">
+  <template name="mfn_arrow" value="import React from 'react';&#10;import {TouchableOpacity,StyleSheet,View} from 'react-native';&#10;&#10;export default ({text, onPress, disabled}) =&gt; {&#10;    return (&#10;        &lt;TouchableOpacity&#10;            disabled={disabled}&#10;            onPress={onPress}&#10;            style={styles.container}&gt;&#10;            &lt;View style={styles.container}&gt;&#10;               {/*comment*/}&#10;            &lt;/View&gt;&#10;        &lt;/TouchableOpacity&gt;&#10;    )&#10;}&#10;&#10;const styles = StyleSheet.create({&#10;    container: {&#10;        backgroundColor: 'red',&#10;        margin: 16,&#10;    }&#10;});" description="arrow function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
