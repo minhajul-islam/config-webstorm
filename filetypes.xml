@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="json_utill" type="JavaScript" />
       <mapping pattern="DialogInput" type="JavaScript" />
       <mapping pattern="HomeScreen.js" type="PLAIN_TEXT" />
     </extensionMap>
