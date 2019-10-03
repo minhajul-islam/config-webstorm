@@ -81,4 +81,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="escreen" value="import {Component} from 'react';&#10;import React from &quot;react&quot;;&#10;import {StatusBar, Text, View, Image, Platform, ScrollView} from &quot;react-native&quot;;&#10;import Color from &quot;../../assets/color/Color&quot;;&#10;&#10;&#10;class $ReminderHome$ extends Component {&#10;    constructor(props) {&#10;        super(props);&#10;    }&#10;&#10;    static navigationOptions = ({navigation}) =&gt; ({&#10;        title: 'Today Reminder' ,&#10;        headerStyle: {&#10;            backgroundColor: Color.appbar&#10;        },&#10;        headerTitleStyle: {&#10;            flex: 1,&#10;            textAlign: 'center',&#10;            marginRight: Platform.OS === 'ios' ? 0 : 56&#10;        },&#10;        headerTintColor: Color.white,&#10;        tabBarVisible: false,&#10;    });&#10;&#10;    render() {&#10;        return (&#10;            &lt;ScrollView &gt;&#10;                &lt;StatusBar backgroundColor={Color.statusBar}/&gt;&#10;            &lt;/ScrollView&gt;&#10;        );&#10;    }&#10;}&#10;&#10;export default $ReminderHome$;&#10;&#10;&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="ReminderHome" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
