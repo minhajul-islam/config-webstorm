@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="json_utill" type="JavaScript" />
       <mapping pattern="DialogInput" type="JavaScript" />
+      <mapping pattern="TermsConditionView" type="JavaScript" />
       <mapping pattern="HomeScreen.js" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
