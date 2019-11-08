@@ -199,4 +199,19 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="alertW" value=" AlertHelper.show('warn', 'Warning', 'Invalid phone number');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="alertS" value=" AlertHelper.show('success', 'Success', String.successfully_saved);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="alertE" value=" AlertHelper.show('error', 'Error', 'Invalid phone number');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
