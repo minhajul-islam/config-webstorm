@@ -209,7 +209,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="alertE" value=" AlertHelper.show('error', 'Error', 'Invalid phone number');" toReformat="false" toShortenFQNames="true">
+  <template name="alertE" value="AlertHelper.show('error', 'Error', String.something_went_wrong);" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
