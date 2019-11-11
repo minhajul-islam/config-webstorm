@@ -194,7 +194,7 @@
   <template name="scu" value="shouldComponentUpdate(nextProps, nextState) {&#10; $END$&#10;}&#10;" description="Invoked before rendering when new props or state are being received." toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="cmpwill" value="   componentWillMount() {&#10;        const {navigation} = this.props;&#10;        const sendMoneyData = navigation.getParam('sendMoneyData', this.state.sendMoneyData);&#10;&#10;        this.setState({&#10;            sendMoneyData: sendMoneyData,&#10;        });&#10;    }" toReformat="false" toShortenFQNames="true">
+  <template name="cmpwill" value="   componentWillMount() {&#10;        const {navigation} = this.props;&#10;        const sendMoneyData = navigation.getParam('sendMoneyData', this.state.sendMoneyData);&#10;&#10;        this.setState({&#10;            sendMoneyData: sendMoneyData,&#10;        });&#10;    }" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
