@@ -199,22 +199,22 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="alertW" value=" AlertHelper.show('warn', 'Warning', 'Invalid phone number');" toReformat="false" toShortenFQNames="true">
+  <template name="alertW" value=" AlertHelper.show('warn', 'Warning', 'Invalid phone number');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="alertS" value=" AlertHelper.show('success', 'Success', String.successfully_saved);" toReformat="false" toShortenFQNames="true">
+  <template name="alertS" value=" AlertHelper.show('success', 'Success', String.successfully_saved);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="alertE" value="AlertHelper.show('error', 'Error', String.something_went_wrong);" toReformat="false" toShortenFQNames="true">
+  <template name="alertE" value="AlertHelper.show('error', 'Error', String.something_went_wrong);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="alertJSON" value="  Alert.alert(&quot;&quot;,JSON.stringify(data));" toReformat="false" toShortenFQNames="true">
+  <template name="alertJSON" value="  Alert.alert(&quot;&quot;,JSON.stringify(data));" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
