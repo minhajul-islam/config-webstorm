@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="DialogInput" type="JavaScript" />
+      <mapping pattern="Home" type="JavaScript" />
       <mapping pattern="TermsConditionView" type="JavaScript" />
       <mapping pattern="json_utill" type="JavaScript" />
       <mapping pattern="QuestionList" type="JavaScript" />
