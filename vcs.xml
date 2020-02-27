@@ -46,8 +46,12 @@
           <option name="url" value="https://github.com/ivpusic/react-native-image-crop-picker.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/topupLtd/TopUpApp.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Documents/react native" />
+    <option name="cloneParentDir" value="$USER_HOME$/Documents/techcare" />
   </component>
 </application>
